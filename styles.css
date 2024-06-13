@@ -71,6 +71,7 @@ h2.first:hover {
                 inset 0 0 .75em .25em var(--glow-color);
     text-shadow: 0 0 .5em var(--glow-color);
     transition: all 0.3s;
+    top:60%;
 }
 
 .hover-container::after {
