@@ -47,7 +47,7 @@ h2.first:hover {
 }
 
 .hover-container {
-    position: absolute;
+    position: relative; /* Change to relative to ensure the hover text is positioned correctly */
     display: inline-block;
     cursor: pointer;
     padding: 10px;
@@ -71,9 +71,6 @@ h2.first:hover {
                 inset 0 0 .75em .25em var(--glow-color);
     text-shadow: 0 0 .5em var(--glow-color);
     transition: all 0.3s;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .hover-container::after {
