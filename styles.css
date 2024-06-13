@@ -47,12 +47,11 @@ h2.first:hover {
 }
 
 .hover-container {
-    position: relative; /* Change to relative to ensure the hover text is positioned correctly */
+    position: relative; /* Position relative to center the container */
     display: inline-block;
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px;
     color: white;
     transition: transform 0.5s, opacity 0.5s;
     --glow-color: rgb(217, 176, 255);
@@ -71,7 +70,6 @@ h2.first:hover {
                 inset 0 0 .75em .25em var(--glow-color);
     text-shadow: 0 0 .5em var(--glow-color);
     transition: all 0.3s;
-    top:60%;
 }
 
 .hover-container::after {
